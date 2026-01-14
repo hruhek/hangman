@@ -11,9 +11,11 @@
 - Format: `uv run ruff format .`
 
 ## Architecture
-- Terminal-based Hangman game
+- Hangman game with terminal and web UI
 - Source code in `src/` directory
-- Main entry point: `src/hangman.py`
+- Terminal entry point: `src/hangman.py`
+- Web UI entry point: `src/hangman_ui.py` (Streamlit)
+- Run web UI: `uv run streamlit run src/hangman_ui.py`
 - Tests in `tests/` directory
 
 ## Testing
