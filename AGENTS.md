@@ -14,6 +14,15 @@
 - Terminal-based Hangman game
 - Source code in `src/` directory
 - Main entry point: `src/hangman.py`
+- Tests in `tests/` directory
+
+## Testing
+- Framework: pytest
+- Test file: `tests/test_hangman.py`
+- Test classes cover: `GameState`, `GuessResult`, `get_display_word`, `get_random_word`, `process_guess`, `validate_guess`
+- Run all tests: `uv run pytest`
+- Run single test: `uv run pytest tests/test_hangman.py::TestClassName::test_name -v`
+- Run tests with coverage: `uv run pytest --cov=src`
 
 ## Code Style
 - Follow PEP 8 conventions
