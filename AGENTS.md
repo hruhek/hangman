@@ -15,7 +15,7 @@
 - Source code in `src/` directory
 - Terminal entry point: `src/hangman.py`
 - Web UI entry point: `src/hangman_ui.py` (Streamlit)
-- Run web UI: `uv run streamlit run src/hangman_ui.py`
+- Run web UI: `./start-ui.sh` or `uv run streamlit run src/hangman_ui.py`
 - Tests in `tests/` directory
 
 ## Testing

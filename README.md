@@ -1,6 +1,6 @@
 # Hangman
 
-A terminal-based Hangman game with ASCII art.
+A Hangman game with ASCII art, available as both a terminal game and a web UI.
 
 ## Requirements
 
@@ -24,6 +24,22 @@ Or run directly:
 ```bash
 uv run python src/hangman.py
 ```
+
+### Web UI
+
+Run the Streamlit web interface:
+
+```bash
+./start-ui.sh
+```
+
+Or manually:
+
+```bash
+uv run streamlit run src/hangman_ui.py
+```
+
+This opens an interactive web page in your browser.
 
 ## How to Play
 
