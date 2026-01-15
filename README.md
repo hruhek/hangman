@@ -19,12 +19,6 @@ uv sync
 uv run hangman
 ```
 
-Or run directly:
-
-```bash
-uv run python src/hangman.py
-```
-
 ### Web UI
 
 Run the Streamlit web interface:
@@ -36,7 +30,7 @@ Run the Streamlit web interface:
 Or manually:
 
 ```bash
-uv run streamlit run src/hangman_ui.py
+uv run streamlit run src/hangman/ui.py
 ```
 
 This opens an interactive web page in your browser.

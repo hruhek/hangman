@@ -1,4 +1,4 @@
-from src.hangman import (
+from hangman import (
     GameState,
     GuessResult,
     get_display_word,
